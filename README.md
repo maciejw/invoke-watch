@@ -3,5 +3,5 @@
 Invokes an action on file change
 
 ```powershell
-Invoke-Watch.ps1 { Invoke-Pester }
+Invoke-Watch.ps1 { Invoke-Tests.ps1 -CodeCoverage }
 ```
